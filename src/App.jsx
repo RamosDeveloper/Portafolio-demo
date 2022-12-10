@@ -108,15 +108,15 @@ function App() {
         {proyectos.map(proyecto => {
           return (
             <div className='my-2 col-12 col-md-6 col-lg-3' key={proyecto.id}>
-            <div className="card">
-              <img src={proyecto.imgURL} className="card-img-top card-img-min-height" alt={proyecto.alt} />
-              <div className="card-body">
-                <h5 className="card-title">{proyecto.titulo}</h5>
-                <p className="card-text card-text-min-height">{proyecto.descripcion}</p>
-                <a href={proyecto.url} className="btn btn-primary">Ir al proyecto</a>
-              </div>
-            </div>  
-          </div>            
+              <div className="card">
+                <img src={proyecto.imgURL} className="card-img-top card-img-min-height" alt={proyecto.alt} />
+                <div className="card-body">
+                  <h5 className="card-title">{proyecto.titulo}</h5>
+                  <p className="card-text card-text-min-height">{proyecto.descripcion}</p>
+                  <a href={proyecto.url} className="btn btn-primary">Ir al proyecto</a>
+                </div>
+              </div>  
+            </div>            
           )
         })}        
       </div>  
