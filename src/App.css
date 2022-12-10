@@ -1,0 +1,23 @@
+.top-image-container {
+    background-image: url('../public/pexels-fauxels-3184454.jpg');    
+    height: 281px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+.card-body-min-height-1 {
+    min-height: 147px;
+}
+
+.card-body-min-height-2 {
+    min-height: 200px;
+}
+
+.card-img-min-height {
+    min-height: 313px;
+}
+
+.card-text-min-height {
+    min-height: 200px;
+}
